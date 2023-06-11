@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  --main-color: #323b3b;
+  --secondary-color: #2c3333;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: cbe4de;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.548);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  color: #cbe4de;
+  min-height: 1vh;
+}
+
+header {
+  background-color: var(--main-color);
+  text-align: center;
+  font-size: 45px;
+}
+
+header div {
+  padding: 5px 0;
+}
+
+section {
+  background-color: var(--secondary-color);
+  padding-bottom: 20px;
+}
+
+section .container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section .city {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+section .date {
+  font-size: 25px;
+  margin-right: 45px;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+}
+
+.select select {
+  width: 200px;
+  height: 45px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-family: "Cairo";
+}
+
+section .prayer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  background-color: var(--main-color);
+  padding: 20px;
+  font-size: 20px;
+  width: 90%;
+}
+
+section .active {
+  border-bottom: 5px solid #27ae60;
+}
+
+footer {
+  background-color: var(--main-color);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px;
+}

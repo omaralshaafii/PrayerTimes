@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayers Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    
+        <header>
+                <div>مواقيت الصلاة</div>
+        </header>
+        <section>
+            <div class="container">
+                
+                <div class="general">
+                    <div class="city">القاهرة</div>
+                    <div class="date">الجمعة 13 يوليو 2015</div>
+                </div>
+
+                <div class="select">
+                    <select class="select-input">
+                        <option data-country="Egypt" data-city="Cairo">القاهرة</option>
+                        <option data-country="Algeria" data-city="Algiers">الجزائر</option>
+                        <option data-country="Djibouti" data-city="Djibouti">جيبوتي</option>
+                        <option data-country="Sudan" data-city="Khartoum">الخرطوم</option>
+                        <option data-country="Somalia" data-city="Hargeisa">هرجيسا</option>
+                        <option data-country="Sudan" data-city="Khartoum">الخرطوم</option>
+                        <option data-country="Mauritania" data-city="Nouakchott">نواكشوط</option>
+                        <option data-country="Morocco" data-city="Rabat">الرباط</option>
+                        <option data-country="Libya" data-city="Tripoli">طرابلس</option>
+                        <option data-country="Madagascar" data-city="Antananarivo">أنتاناناريفو</option>
+                        <option data-country="Tunisia" data-city="Tunis">تونس</option>
+                        <option data-country="United Arab Emirates" data-city="Abu Dhabi">أبو ظبي</option>
+                        <option data-country="Jordan" data-city="Amman">عمان</option>
+                        <option data-country="Iraq" data-city="Baghdad">بغداد</option>
+                        <option data-country="Lebanon" data-city="Beirut">بيروت</option>
+                        <option data-country="Syria" data-city="Damascus">دمشق</option>
+                        <option data-country="Qatar" data-city="Doha">الدوحة</option>
+                        <option data-country="Palestine" data-city="Jerusalem">القدس</option>
+                        <option data-country="Kuwait" data-city="Kuwait">الكويت</option>
+                        <option data-country="Bahrain" data-city="Manama">المنامة</option>
+                        <option data-country="Saudi Arabia" data-city="Riyadh">الرياض</option>
+                        <option data-country="Yemen" data-city="Sanaa">صنعاء</option>
+                        <option data-country="Oman" data-city="Muscat">مسقط</option>
+                    </select>
+                </div>
+
+                <div class="prayers-container"></div>
+
+            </div>
+        </section>
+        <footer>
+            <div>Made With 💙 By <a target="_blank" href="https://github.com/omarsha6an"> Omar Shaban</a> © 2023 </div>
+        </footer>
+   
+    <script src="main.js""></script>
+</body>
+</html>
