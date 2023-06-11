@@ -8,7 +8,7 @@ let selectInput = document.querySelector(".select-input");
 function getTimes(year, month, day, city, country) {
   axios
     .get(
-      `http://api.aladhan.com/v1/calendarByCity/${year}/${month}?city=${city}&country=${country}&method=5`
+      `https://api.aladhan.com/v1/calendarByCity/${year}/${month}?city=${city}&country=${country}&method=5`
     )
     .then((response) => {
       let result = response.data.data[day - 1];
